@@ -67,10 +67,12 @@ Get-Variable -Scope script | Where-Object {$_.Name -like "Sql*"} | Remove-Variab
 $RunSQLVersion = "1.0.0";
 $DebugTime = get-date -Format yyyyMMddhhmmss
 $Script:DebugFile = ".\DebugLog_${DebugTime}.txt"
-if($debug) {
+if($debug) 
+{
 	$global:DebugPreference = "Continue";
 }
-else {
+else 
+{
 	$global:DebugPreference = "SilentlyContinue";
 }
 

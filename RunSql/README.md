@@ -1,9 +1,9 @@
-#RunSlq.ps1 - script for execution of T-SQL code. 
+# RunSlq.ps1 - script for execution of T-SQL code. 
 This script is designed to execute T-SQL code on local and remote SQL server. 
 I've created this one for some implementation tasks, where I should execute something on SQL Server, but
 I had no SQL Server Managent Studio installed on machine.
 In this script I decided to created GUI and this was my study of possibilities of PowerShell in GUI creation.
-#Script GUI description
+# Script GUI description
 Just run this script from PowerShell and you'll get the main script GUI.
 This GUI has the next elements:
 Field "Sql Server Instance name" - the name of target SQL Server. Script will try to connect to this SQL Server.

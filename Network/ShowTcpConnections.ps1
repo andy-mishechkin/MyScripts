@@ -206,7 +206,7 @@ function Show-CompareResult {
         $Diffs | Where-Object {$_.SideIndicator -eq $SideIndicator} | ForEach-Object {
             $DiffArrList.Add($_) > $null
         }
-        if($SideIndicator -eq '<=') { 
+        if ($SideIndicator -eq '<=') { 
             Out-Info -Info "Closed connections:" 
         }
         elseif (

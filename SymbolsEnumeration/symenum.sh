@@ -1,6 +1,5 @@
 #!/bin/bash
 # symenum.ps1 - script for symbols enumeration
-# This script was created only for research and teaching goals and may be useful in realization of various symbols generators.
 # Parameters: 
 # --seqlength - Mandatory Parameter. The length of symbols sequence (amount of symbols)
 # --digits - Specify this parameter to include digits to symbol sequence. This is also the default symbols set, if no 
